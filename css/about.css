@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.boshi {
+  width: 1920px;
+  height: 1114px;
+  flex-shrink: 0;
+  background-color: lightgreen;
+}
+
+.soz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: #a1b5bb;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 1px;
+}
+
+.sz {
+  color: #a1b5bb;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  padding-top: 1px;
+}
+
+#sh {
+  color: #a1b5bb;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn {
+  width: 140px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #145e76;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.btn h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.8px; /* 160% */
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  padding-right: 34px;
+}
+
+.logo {
+  display: flex;
+  justify-content: first baseline;
+  align-items: first baseline;
+  padding-left: 373px;
+  padding-top: 55px;
+}
+
+.tps {
+  margin-top: 0px;
+}
+
+.oka {
+  width: 599px;
+  height: 730px;
+  flex-shrink: 0;
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 375px;
+  margin-left: 946px;
+  padding-top: 136px;
+}
+
+.re {
+  color: #fff;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 125% */
+  padding-top: 358px;
+}
+
+@media (max-width: 1440px) {
+  // lg
+}
+
+@media (max-width: 976px) {
+  // md
+}
+
+@media (max-width: 768px) {
+  // sm
+}
+
+@media (max-width: 480px) {
+  // xs
+}
+
+@media (min-width: 480px) {
+  // sm
+}
+
+@media (min-width: 768px) {
+  // md
+}
+
+@media (min-width: 976px) {
+  // lg
+}
+
+@media (min-width: 1440px) {
+  // xl
+}
